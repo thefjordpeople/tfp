@@ -18,7 +18,7 @@ body {
  transform: translate(-50%, -40%);
  position: absolute;
  max-width: 75vw;
- max-height: 35vh;
+ max-height: 40vh;
 }
 button.soc {
  display: flex;
