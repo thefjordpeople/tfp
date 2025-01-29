@@ -1,3 +1,14 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+ .footer {top:98%;left:50%;transform:translate(-50%,-98%);}
+}
+@media screen and (min-width: 701px) {
+ .footer {top:99%;left:50%;transform:translate(-50%,-99%);}
+}
 html {
  height: 100%;
  width: 100%;
@@ -27,7 +38,7 @@ button.soc {
  border: 0px solid #000000;
  padding: 15px;
  text-align: center;
- margin: 0 1vw;
+ margin: 0 0.5vw;
 }
 button.soc:hover {
  background: #4C8383;
@@ -52,6 +63,14 @@ button.soc:hover {
 }
 li {
  display: inline-block;
+}
+.footer {
+ width:100%;
+ bottom: 0;
+ display:flex;
+ position: absolute;
+ align-items: center;
+ justify-content: center;
 }
 .bottomright {
  position: absolute;
